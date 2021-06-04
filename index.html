@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+<head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Piccerelle Killian - Portfolio</title>
+
+    <meta name="description" content="This is my personal portfolio">
+    <meta name="keywords"
+          content="onepage, fullstack, developer, resume, cv, personal, portfolio, personal resume, clean, modern">
+    <meta name="author" content="KillianPiccerelle">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+
+    <!-- Favicon
+    ================================================== -->
+
+    <!-- Font Awesome
+    ================================================== -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    >
+    <!-- Google Fonts
+    ================================================== -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet"
+    >
+    <!-- AOS (Animate on scroll library)
+    ================================================== -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    >
+    <!-- GlideJS
+    ================================================== -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    >
+
+    <!-- ============= CUSTOM CSS ============= -->
+    <link href="css/app.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="app">
+        <main class="py-4">
+            <!-- Header -->
+    <header id="home" class="header">
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="navigation container">
+                <div class="logo">
+                    <h1>Developer<span>.</span></h1>
+                </div>
+                <div class="menu">
+                    <div class="top-nav">
+                        <div class="logo">
+                            <h1>Developer<span>.</span></h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link scroll-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link scroll-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link scroll-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero -->
+        <div class="hero">
+            <h3>Hello, my name is</h3>
+            <h1>Killian Piccerelle</h1>
+            <h4>And I'm a <span id="type1"></span></h4>
+            <a href="#contact">Contact me</a>
+        </div>
+        <div class="containerImg">
+            <img src="./images/codeInfo.png"/>
+            <img src="./images/codeInfo.png"/>
+            <img src="./images/codeInfo.png"/>
+            <img src="./images/codeInfo.png"/>
+        </div>
+
+
+        <!-- Icons -->
+        <div class="icons">
+            <a style="color: #ffffff" href="https://github.com/KillianPiccerelle"><span><i
+                        class="fab fa-github"></i></span></a>
+            <a style="color: #ffffff" href="https://twitter.com/PiccerelleK"><span><i class="fab fa-twitter"></i></span></a>
+            <a style="color: #ffffff" href="https://www.linkedin.com/in/killian-piccerelle-886b1a1a6/"><span><i
+                        class="fab fa-linkedin"></i></span></a>
+        </div>
+    </header>
+
+    <!--Main-->
+    <main>
+        <!--About-->
+        <section class="section about" id="about">
+            <div class="title">
+                <h1>About me</h1>
+            </div>
+
+            <div class="about-center container">
+                <div class="left" data-aos="fade-right" data-aos-duration="2000">
+                    <img class="circular--square" src="./images/profile1.jpg" alt=""/>
+                </div>
+
+                <div class="right" data-aos="fade-left" data-aos-duration="2000">
+                    <h1> I'm Killian a <span id="type2"></span></h1>
+                    <p>
+                        Developer since 2019, I am currently a student. I am diligent
+                        in my projects and passionate about this field. You can access here to all my GitHub project: <a href="https://github.com/KillianPiccerelle">https://github.com/KillianPiccerelle</a>
+                    </p>
+                    <a href="#contact" class="btn">Contact for CV</a>
+                </div>
+
+                <div class="colProfile" data-aos="fade-right" data-aos-duration="2000">
+                    <h3>Profile</h3>
+                    <p>
+                        Here different information about me.
+                    </p>
+
+                    <ul class="info-list">
+                        <li>
+                            <strong>Fullname:</strong>
+                            <span>Piccerelle Killian</span>
+                        </li>
+                        <li>
+                            <strong>Birth Date:</strong>
+                            <span>November 16, 2001</span>
+                        </li>
+                        <li>
+                            <strong>Job:</strong>
+                            <span>Student</span>
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            <span>killian@killian-piccerelle.com</span>
+                        </li>
+                    </ul> <!-- /info-list -->
+                </div>
+
+                <div class="colSkill" id="skills" data-aos="fade-left" data-aos-duration="2000">
+                    <h3>Skills</h3>
+                    <p>
+                        Here is my list of skills. Those considered to be more or less mastered and those in apprenticeship.
+                    </p>
+
+                    <div class="wrapper">
+                        <ol class="skills">
+                            <li>
+                                <div class=""><span><i class="fas fa-check" style="color: green"></i></span>
+                                    <strong>HTML5</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class=""><span><i class="fas fa-check" style="color: green"></i></span>
+                                    <strong>CSS3</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class=""><span><i class="fas fa-check" style="color: green"></i></span>
+                                    <strong>Laravel</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class=""><span><i class="fas fa-check" style="color: green"></i></span>
+                                    <strong>PHP</strong>
+                                </div>
+                            </li><li>
+                                <div class=""><span><i class="fas fa-check" style="color: green"></i></span>
+                                    <strong>GIT</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class=""><span><i class="fas fa-check" style="color: green"></i></span>
+                                    <strong>MySQL / SQL</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="loader" style="float: left"></div>
+                                <strong>Dart</strong>
+                            </li>
+                            <li>
+                                <div class="loader" style="float: left"></div>
+                                <strong>Flutter</strong>
+                            </li>
+                            <li>
+                                <div class="loader" style="float: left"></div>
+                                <strong>JavaScript</strong>
+                            </li>
+							<li>
+                                <div class="loader" style="float: left"></div>
+                                <strong>React Native</strong>
+                            </li>
+                        </ol> <!-- /skills -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section theme" id="services">
+            <div class="title">
+                <h1>My Services</h1>
+            </div>
+            <div class="services-center container">
+                <!--<div class="service">
+                    <span><i class="fas fa-globe-europe"></i></span>
+                    <h2>Web Design / Web development</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                        exercitationem numquam porro asperiores neque architecto.
+                    </p>
+                </div>-->
+                <div class="service" data-aos="fade-down" data-aos-duration="2000">
+                    <span><i class="far fa-window-restore"></i></span>
+                    <h2>Unavailable</h2>
+                    <p>
+                        This section is currently not accessible. Please consult it later.
+                    </p>
+                </div><!--
+                <div class="service">
+                    <span><i class="fas fa-brush"></i></span>
+                    <h2>Branding</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                        exercitationem numquam porro asperiores neque architecto.
+                    </p>
+                </div>-->
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section project" id="portfolio">
+            <div class="title">
+                <h1>Portfolio</h1>
+                <div data-aos="fade-up" data-aos-duration="2000">
+                    <h2>Check Out Some of My Works</h2>
+                    <p>You will find here some of the projects I have realized.</p>
+                    <a href="files/RealisedProjects.pdf" class="btn" download>PDF of small projects</a>
+                </div>
+            </div>
+
+            <div class="portfolio-list container">
+                <div class="card-grid">
+                        <a class="card" href="https://github.com/KillianPiccerelle/Sonyry" data-aos="{{$project->dataAos}}"
+                           data-aos-duration="2000">
+                            <div class="card__background"
+                                 style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)"></div>
+                            <div class="card__content">
+                                <p class="card__category">WEB DEVELOPEMENT</p>
+                                <h3 class="card__heading">Sonyry Project</h3>
+                            </div>
+                        </a>
+                    <a class="card" href="" data-aos="fade-down" data-aos-duration="2000">
+                        <div class="card__background"
+                             style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)"></div>
+                        <div class="card__content">
+                            <p class="card__category">Unavailable</p>
+                            <h3 class="card__heading">In Waiting For Project.</h3>
+                            <div class="lds-default">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+            <div class="title">
+                <h1>Contact</h1>
+            </div>
+
+            <div class="contact container">
+
+                <div class="icon">
+                    <span><i class="far fa-envelope"></i></span>
+                </div>
+
+                <h4>Email Me At</h4>
+
+                <p>killian@killian-piccerelle.com</p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="copyright">
+            <span> Inspired by Codevo | Piccerelle Killian 2021.</span>
+            <a style="color: #ffffff" href="https://github.com/KillianPiccerelle"><span><i
+                        class="fab fa-github"></i></span></a>
+            <a style="color: #ffffff" href="https://twitter.com/PiccerelleK"><span><i
+                        class="fab fa-twitter"></i></span></a>
+            <a style="color: #ffffff" href="https://www.linkedin.com/in/killian-piccerelle-886b1a1a6/"><span><i
+                        class="fab fa-linkedin"></i></span></a>
+        </div>
+
+        <div id="go-top" style="display: block;">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="fas fa-long-arrow-alt-up"></i></a>
+        </div>
+
+    </footer>
+        </main>
+    </div>
+
+    <!-- AOS
+        ================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- GlideJS
+        ================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- typeIT
+        ================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+    <!-- gsap
+        ================================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!-- ============= CUSTOM SCRIPTS ============= -->
+    <script src="js/app.js" defer></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
